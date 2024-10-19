@@ -12,7 +12,12 @@
 		2D19F4FD2CC401C5003BD38F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D19F4FC2CC401C5003BD38F /* Assets.xcassets */; };
 		2D19F5002CC401C5003BD38F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D19F4FF2CC401C5003BD38F /* Preview Assets.xcassets */; };
 		2D19F50B2CC408E4003BD38F /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D19F50A2CC408E4003BD38F /* WeatherData.swift */; };
+<<<<<<< Updated upstream
 		2D19F50D2CC40D80003BD38F /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D19F50C2CC40D80003BD38F /* WeatherView.swift */; };
+=======
+		620FE6D42CC4260B00CF66A3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620FE6D32CC4260B00CF66A3 /* ProfileView.swift */; };
+		628FC52C2CC4117700979DFC /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628FC52B2CC4117700979DFC /* WelcomeView.swift */; };
+>>>>>>> Stashed changes
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +27,13 @@
 		2D19F4FC2CC401C5003BD38F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D19F4FF2CC401C5003BD38F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D19F50A2CC408E4003BD38F /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
 		2D19F50C2CC40D80003BD38F /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		2D19F50E2CC410D6003BD38F /* Environment.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Environment.xcconfig; sourceTree = "<group>"; };
+=======
+		620FE6D32CC4260B00CF66A3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		628FC52B2CC4117700979DFC /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +90,8 @@
 				2D19F4FA2CC401C4003BD38F /* ContentView.swift */,
 				2D19F50C2CC40D80003BD38F /* WeatherView.swift */,
 				2D19F50A2CC408E4003BD38F /* WeatherData.swift */,
+				628FC52B2CC4117700979DFC /* WelcomeView.swift */,
+				620FE6D32CC4260B00CF66A3 /* ProfileView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,7 +173,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				628FC52C2CC4117700979DFC /* WelcomeView.swift in Sources */,
 				2D19F4FB2CC401C4003BD38F /* ContentView.swift in Sources */,
+				620FE6D42CC4260B00CF66A3 /* ProfileView.swift in Sources */,
 				2D19F50B2CC408E4003BD38F /* WeatherData.swift in Sources */,
 				2D19F4F92CC401C4003BD38F /* FifitsApp.swift in Sources */,
 				2D19F50D2CC40D80003BD38F /* WeatherView.swift in Sources */,
