@@ -1,0 +1,10 @@
+//
+//  Environment.xcconfig
+//  Fifits
+//
+//  Created by Lemeng Wang on 10/19/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+WEATHER_API = "48c11644298a5e3710d3b3f7741a55d8"

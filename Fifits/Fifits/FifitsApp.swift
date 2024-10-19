@@ -11,7 +11,7 @@ import SwiftUI
 struct FifitsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WeatherView()
         }
     }
 }
