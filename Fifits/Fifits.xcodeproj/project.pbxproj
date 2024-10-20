@@ -12,12 +12,56 @@
 		2D19F4FD2CC401C5003BD38F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D19F4FC2CC401C5003BD38F /* Assets.xcassets */; };
 		2D19F5002CC401C5003BD38F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D19F4FF2CC401C5003BD38F /* Preview Assets.xcassets */; };
 		2D19F50B2CC408E4003BD38F /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D19F50A2CC408E4003BD38F /* WeatherData.swift */; };
-<<<<<<< Updated upstream
 		2D19F50D2CC40D80003BD38F /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D19F50C2CC40D80003BD38F /* WeatherView.swift */; };
-=======
-		620FE6D42CC4260B00CF66A3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620FE6D32CC4260B00CF66A3 /* ProfileView.swift */; };
-		628FC52C2CC4117700979DFC /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628FC52B2CC4117700979DFC /* WelcomeView.swift */; };
->>>>>>> Stashed changes
+		2DB0CCC02CC43A2C009D4CA2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB0CCBF2CC43A2C009D4CA2 /* HomeView.swift */; };
+		2DB0CCC22CC4404B009D4CA2 /* SuggestedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB0CCC12CC4404B009D4CA2 /* SuggestedView.swift */; };
+		2DF8CAD72CC465C50067E8F3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF8CAD62CC465C50067E8F3 /* ProfileView.swift */; };
+		2DF8CAD92CC465F20067E8F3 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF8CAD82CC465F20067E8F3 /* SettingView.swift */; };
+		2DF8CADB2CC466000067E8F3 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF8CADA2CC466000067E8F3 /* WelcomeView.swift */; };
+		2DF8CAE92CC47F430067E8F3 /* dress2.usdc in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CAE72CC47F430067E8F3 /* dress2.usdc */; };
+		2DF8CB202CC4A43A0067E8F3 /* longSleeve5.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB002CC4A43A0067E8F3 /* longSleeve5.usdz */; };
+		2DF8CB212CC4A43A0067E8F3 /* tShirt3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB192CC4A43A0067E8F3 /* tShirt3.usdz */; };
+		2DF8CB222CC4A43A0067E8F3 /* longSleeve6.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB012CC4A43A0067E8F3 /* longSleeve6.usdz */; };
+		2DF8CB232CC4A43A0067E8F3 /* shorts7.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB142CC4A43A0067E8F3 /* shorts7.usdz */; };
+		2DF8CB242CC4A43A0067E8F3 /* longSleeve4.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CAFF2CC4A43A0067E8F3 /* longSleeve4.usdz */; };
+		2DF8CB252CC4A43A0067E8F3 /* dress6.usdc in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CAF82CC4A43A0067E8F3 /* dress6.usdc */; };
+		2DF8CB262CC4A43A0067E8F3 /* longSleeve2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CAFD2CC4A43A0067E8F3 /* longSleeve2.usdz */; };
+		2DF8CB272CC4A43A0067E8F3 /* tShirt9.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB1F2CC4A43A0067E8F3 /* tShirt9.usdz */; };
+		2DF8CB282CC4A43A0067E8F3 /* pants7.usdc in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB0B2CC4A43A0067E8F3 /* pants7.usdc */; };
+		2DF8CB292CC4A43A0067E8F3 /* pants5.usdc in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB092CC4A43A0067E8F3 /* pants5.usdc */; };
+		2DF8CB2A2CC4A43A0067E8F3 /* shorts9.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB162CC4A43A0067E8F3 /* shorts9.usdz */; };
+		2DF8CB2B2CC4A43A0067E8F3 /* pants8.usdc in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB0C2CC4A43A0067E8F3 /* pants8.usdc */; };
+		2DF8CB2C2CC4A43A0067E8F3 /* dress1.usdc in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CAF42CC4A43A0067E8F3 /* dress1.usdc */; };
+		2DF8CB2D2CC4A43A0067E8F3 /* longSleeve1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CAFB2CC4A43A0067E8F3 /* longSleeve1.usdz */; };
+		2DF8CB2E2CC4A43A0067E8F3 /* longSleeve7.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB022CC4A43A0067E8F3 /* longSleeve7.usdz */; };
+		2DF8CB2F2CC4A43A0067E8F3 /* longSleeve9.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB042CC4A43A0067E8F3 /* longSleeve9.usdz */; };
+		2DF8CB302CC4A43A0067E8F3 /* pants1.usdc in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB052CC4A43A0067E8F3 /* pants1.usdc */; };
+		2DF8CB312CC4A43A0067E8F3 /* dress5.usdc in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CAF72CC4A43A0067E8F3 /* dress5.usdc */; };
+		2DF8CB322CC4A43A0067E8F3 /* pants2.usdc in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB062CC4A43A0067E8F3 /* pants2.usdc */; };
+		2DF8CB332CC4A43A0067E8F3 /* pants6.usdc in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB0A2CC4A43A0067E8F3 /* pants6.usdc */; };
+		2DF8CB342CC4A43A0067E8F3 /* longSleeve8.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB032CC4A43A0067E8F3 /* longSleeve8.usdz */; };
+		2DF8CB352CC4A43A0067E8F3 /* pants3.usdc in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB072CC4A43A0067E8F3 /* pants3.usdc */; };
+		2DF8CB362CC4A43A0067E8F3 /* pants9.usdc in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB0D2CC4A43A0067E8F3 /* pants9.usdc */; };
+		2DF8CB372CC4A43A0067E8F3 /* shorts2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB0F2CC4A43A0067E8F3 /* shorts2.usdz */; };
+		2DF8CB382CC4A43A0067E8F3 /* dress3.usdc in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CAF52CC4A43A0067E8F3 /* dress3.usdc */; };
+		2DF8CB392CC4A43A0067E8F3 /* shorts5.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB122CC4A43A0067E8F3 /* shorts5.usdz */; };
+		2DF8CB3A2CC4A43A0067E8F3 /* shorts6.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB132CC4A43A0067E8F3 /* shorts6.usdz */; };
+		2DF8CB3B2CC4A43A0067E8F3 /* dress8.usdc in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CAF92CC4A43A0067E8F3 /* dress8.usdc */; };
+		2DF8CB3C2CC4A43A0067E8F3 /* shorts8.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB152CC4A43A0067E8F3 /* shorts8.usdz */; };
+		2DF8CB3D2CC4A43A0067E8F3 /* tShirt4.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB1A2CC4A43A0067E8F3 /* tShirt4.usdz */; };
+		2DF8CB3E2CC4A43A0067E8F3 /* tShirt6.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB1C2CC4A43A0067E8F3 /* tShirt6.usdz */; };
+		2DF8CB3F2CC4A43A0067E8F3 /* dress4.usdc in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CAF62CC4A43A0067E8F3 /* dress4.usdc */; };
+		2DF8CB402CC4A43A0067E8F3 /* tShirt5.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB1B2CC4A43A0067E8F3 /* tShirt5.usdz */; };
+		2DF8CB412CC4A43A0067E8F3 /* shorts3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB102CC4A43A0067E8F3 /* shorts3.usdz */; };
+		2DF8CB422CC4A43A0067E8F3 /* shorts4.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB112CC4A43A0067E8F3 /* shorts4.usdz */; };
+		2DF8CB432CC4A43A0067E8F3 /* tShirt7.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB1D2CC4A43A0067E8F3 /* tShirt7.usdz */; };
+		2DF8CB442CC4A43A0067E8F3 /* tShirt8.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB1E2CC4A43A0067E8F3 /* tShirt8.usdz */; };
+		2DF8CB462CC4A43A0067E8F3 /* pants4.usdc in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB082CC4A43A0067E8F3 /* pants4.usdc */; };
+		2DF8CB472CC4A43A0067E8F3 /* tShirt1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB172CC4A43A0067E8F3 /* tShirt1.usdz */; };
+		2DF8CB482CC4A43A0067E8F3 /* dress9.usdc in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CAFA2CC4A43A0067E8F3 /* dress9.usdc */; };
+		2DF8CB492CC4A43A0067E8F3 /* tShirt2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB182CC4A43A0067E8F3 /* tShirt2.usdz */; };
+		2DF8CB4A2CC4A43A0067E8F3 /* longSleeve3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CAFE2CC4A43A0067E8F3 /* longSleeve3.usdz */; };
+		2DF8CB4B2CC4A43A0067E8F3 /* shorts1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8CB0E2CC4A43A0067E8F3 /* shorts1.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,13 +71,57 @@
 		2D19F4FC2CC401C5003BD38F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D19F4FF2CC401C5003BD38F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D19F50A2CC408E4003BD38F /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
-<<<<<<< Updated upstream
 		2D19F50C2CC40D80003BD38F /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		2D19F50E2CC410D6003BD38F /* Environment.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Environment.xcconfig; sourceTree = "<group>"; };
-=======
-		620FE6D32CC4260B00CF66A3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		628FC52B2CC4117700979DFC /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
->>>>>>> Stashed changes
+		2DB0CCBF2CC43A2C009D4CA2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2DB0CCC12CC4404B009D4CA2 /* SuggestedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedView.swift; sourceTree = "<group>"; };
+		2DF8CAD62CC465C50067E8F3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2DF8CAD82CC465F20067E8F3 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		2DF8CADA2CC466000067E8F3 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		2DF8CAE72CC47F430067E8F3 /* dress2.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; path = dress2.usdc; sourceTree = "<group>"; };
+		2DF8CAF42CC4A43A0067E8F3 /* dress1.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; path = dress1.usdc; sourceTree = "<group>"; };
+		2DF8CAF52CC4A43A0067E8F3 /* dress3.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; path = dress3.usdc; sourceTree = "<group>"; };
+		2DF8CAF62CC4A43A0067E8F3 /* dress4.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; path = dress4.usdc; sourceTree = "<group>"; };
+		2DF8CAF72CC4A43A0067E8F3 /* dress5.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; path = dress5.usdc; sourceTree = "<group>"; };
+		2DF8CAF82CC4A43A0067E8F3 /* dress6.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; path = dress6.usdc; sourceTree = "<group>"; };
+		2DF8CAF92CC4A43A0067E8F3 /* dress8.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; path = dress8.usdc; sourceTree = "<group>"; };
+		2DF8CAFA2CC4A43A0067E8F3 /* dress9.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; path = dress9.usdc; sourceTree = "<group>"; };
+		2DF8CAFB2CC4A43A0067E8F3 /* longSleeve1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = longSleeve1.usdz; sourceTree = "<group>"; };
+		2DF8CAFD2CC4A43A0067E8F3 /* longSleeve2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = longSleeve2.usdz; sourceTree = "<group>"; };
+		2DF8CAFE2CC4A43A0067E8F3 /* longSleeve3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = longSleeve3.usdz; sourceTree = "<group>"; };
+		2DF8CAFF2CC4A43A0067E8F3 /* longSleeve4.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = longSleeve4.usdz; sourceTree = "<group>"; };
+		2DF8CB002CC4A43A0067E8F3 /* longSleeve5.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = longSleeve5.usdz; sourceTree = "<group>"; };
+		2DF8CB012CC4A43A0067E8F3 /* longSleeve6.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = longSleeve6.usdz; sourceTree = "<group>"; };
+		2DF8CB022CC4A43A0067E8F3 /* longSleeve7.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = longSleeve7.usdz; sourceTree = "<group>"; };
+		2DF8CB032CC4A43A0067E8F3 /* longSleeve8.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = longSleeve8.usdz; sourceTree = "<group>"; };
+		2DF8CB042CC4A43A0067E8F3 /* longSleeve9.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = longSleeve9.usdz; sourceTree = "<group>"; };
+		2DF8CB052CC4A43A0067E8F3 /* pants1.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; path = pants1.usdc; sourceTree = "<group>"; };
+		2DF8CB062CC4A43A0067E8F3 /* pants2.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; path = pants2.usdc; sourceTree = "<group>"; };
+		2DF8CB072CC4A43A0067E8F3 /* pants3.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; path = pants3.usdc; sourceTree = "<group>"; };
+		2DF8CB082CC4A43A0067E8F3 /* pants4.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; path = pants4.usdc; sourceTree = "<group>"; };
+		2DF8CB092CC4A43A0067E8F3 /* pants5.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; path = pants5.usdc; sourceTree = "<group>"; };
+		2DF8CB0A2CC4A43A0067E8F3 /* pants6.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; path = pants6.usdc; sourceTree = "<group>"; };
+		2DF8CB0B2CC4A43A0067E8F3 /* pants7.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; path = pants7.usdc; sourceTree = "<group>"; };
+		2DF8CB0C2CC4A43A0067E8F3 /* pants8.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; path = pants8.usdc; sourceTree = "<group>"; };
+		2DF8CB0D2CC4A43A0067E8F3 /* pants9.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; path = pants9.usdc; sourceTree = "<group>"; };
+		2DF8CB0E2CC4A43A0067E8F3 /* shorts1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = shorts1.usdz; sourceTree = "<group>"; };
+		2DF8CB0F2CC4A43A0067E8F3 /* shorts2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = shorts2.usdz; sourceTree = "<group>"; };
+		2DF8CB102CC4A43A0067E8F3 /* shorts3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = shorts3.usdz; sourceTree = "<group>"; };
+		2DF8CB112CC4A43A0067E8F3 /* shorts4.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = shorts4.usdz; sourceTree = "<group>"; };
+		2DF8CB122CC4A43A0067E8F3 /* shorts5.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = shorts5.usdz; sourceTree = "<group>"; };
+		2DF8CB132CC4A43A0067E8F3 /* shorts6.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = shorts6.usdz; sourceTree = "<group>"; };
+		2DF8CB142CC4A43A0067E8F3 /* shorts7.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = shorts7.usdz; sourceTree = "<group>"; };
+		2DF8CB152CC4A43A0067E8F3 /* shorts8.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = shorts8.usdz; sourceTree = "<group>"; };
+		2DF8CB162CC4A43A0067E8F3 /* shorts9.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = shorts9.usdz; sourceTree = "<group>"; };
+		2DF8CB172CC4A43A0067E8F3 /* tShirt1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = tShirt1.usdz; sourceTree = "<group>"; };
+		2DF8CB182CC4A43A0067E8F3 /* tShirt2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = tShirt2.usdz; sourceTree = "<group>"; };
+		2DF8CB192CC4A43A0067E8F3 /* tShirt3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = tShirt3.usdz; sourceTree = "<group>"; };
+		2DF8CB1A2CC4A43A0067E8F3 /* tShirt4.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = tShirt4.usdz; sourceTree = "<group>"; };
+		2DF8CB1B2CC4A43A0067E8F3 /* tShirt5.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = tShirt5.usdz; sourceTree = "<group>"; };
+		2DF8CB1C2CC4A43A0067E8F3 /* tShirt6.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = tShirt6.usdz; sourceTree = "<group>"; };
+		2DF8CB1D2CC4A43A0067E8F3 /* tShirt7.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = tShirt7.usdz; sourceTree = "<group>"; };
+		2DF8CB1E2CC4A43A0067E8F3 /* tShirt8.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = tShirt8.usdz; sourceTree = "<group>"; };
+		2DF8CB1F2CC4A43A0067E8F3 /* tShirt9.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = tShirt9.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,11 +175,14 @@
 		2D19F5062CC40731003BD38F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2DF8CADA2CC466000067E8F3 /* WelcomeView.swift */,
+				2DF8CAD82CC465F20067E8F3 /* SettingView.swift */,
+				2DF8CAD62CC465C50067E8F3 /* ProfileView.swift */,
 				2D19F4FA2CC401C4003BD38F /* ContentView.swift */,
 				2D19F50C2CC40D80003BD38F /* WeatherView.swift */,
 				2D19F50A2CC408E4003BD38F /* WeatherData.swift */,
-				628FC52B2CC4117700979DFC /* WelcomeView.swift */,
-				620FE6D32CC4260B00CF66A3 /* ProfileView.swift */,
+				2DB0CCBF2CC43A2C009D4CA2 /* HomeView.swift */,
+				2DB0CCC12CC4404B009D4CA2 /* SuggestedView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -99,6 +190,50 @@
 		2D19F5092CC407D4003BD38F /* Objects */ = {
 			isa = PBXGroup;
 			children = (
+				2DF8CAF42CC4A43A0067E8F3 /* dress1.usdc */,
+				2DF8CAF52CC4A43A0067E8F3 /* dress3.usdc */,
+				2DF8CAF62CC4A43A0067E8F3 /* dress4.usdc */,
+				2DF8CAF72CC4A43A0067E8F3 /* dress5.usdc */,
+				2DF8CAF82CC4A43A0067E8F3 /* dress6.usdc */,
+				2DF8CAF92CC4A43A0067E8F3 /* dress8.usdc */,
+				2DF8CAFA2CC4A43A0067E8F3 /* dress9.usdc */,
+				2DF8CAFB2CC4A43A0067E8F3 /* longSleeve1.usdz */,
+				2DF8CAFD2CC4A43A0067E8F3 /* longSleeve2.usdz */,
+				2DF8CAFE2CC4A43A0067E8F3 /* longSleeve3.usdz */,
+				2DF8CAFF2CC4A43A0067E8F3 /* longSleeve4.usdz */,
+				2DF8CB002CC4A43A0067E8F3 /* longSleeve5.usdz */,
+				2DF8CB012CC4A43A0067E8F3 /* longSleeve6.usdz */,
+				2DF8CB022CC4A43A0067E8F3 /* longSleeve7.usdz */,
+				2DF8CB032CC4A43A0067E8F3 /* longSleeve8.usdz */,
+				2DF8CB042CC4A43A0067E8F3 /* longSleeve9.usdz */,
+				2DF8CB052CC4A43A0067E8F3 /* pants1.usdc */,
+				2DF8CB062CC4A43A0067E8F3 /* pants2.usdc */,
+				2DF8CB072CC4A43A0067E8F3 /* pants3.usdc */,
+				2DF8CB082CC4A43A0067E8F3 /* pants4.usdc */,
+				2DF8CB092CC4A43A0067E8F3 /* pants5.usdc */,
+				2DF8CB0A2CC4A43A0067E8F3 /* pants6.usdc */,
+				2DF8CB0B2CC4A43A0067E8F3 /* pants7.usdc */,
+				2DF8CB0C2CC4A43A0067E8F3 /* pants8.usdc */,
+				2DF8CB0D2CC4A43A0067E8F3 /* pants9.usdc */,
+				2DF8CB0E2CC4A43A0067E8F3 /* shorts1.usdz */,
+				2DF8CB0F2CC4A43A0067E8F3 /* shorts2.usdz */,
+				2DF8CB102CC4A43A0067E8F3 /* shorts3.usdz */,
+				2DF8CB112CC4A43A0067E8F3 /* shorts4.usdz */,
+				2DF8CB122CC4A43A0067E8F3 /* shorts5.usdz */,
+				2DF8CB132CC4A43A0067E8F3 /* shorts6.usdz */,
+				2DF8CB142CC4A43A0067E8F3 /* shorts7.usdz */,
+				2DF8CB152CC4A43A0067E8F3 /* shorts8.usdz */,
+				2DF8CB162CC4A43A0067E8F3 /* shorts9.usdz */,
+				2DF8CB172CC4A43A0067E8F3 /* tShirt1.usdz */,
+				2DF8CB182CC4A43A0067E8F3 /* tShirt2.usdz */,
+				2DF8CB192CC4A43A0067E8F3 /* tShirt3.usdz */,
+				2DF8CB1A2CC4A43A0067E8F3 /* tShirt4.usdz */,
+				2DF8CB1B2CC4A43A0067E8F3 /* tShirt5.usdz */,
+				2DF8CB1C2CC4A43A0067E8F3 /* tShirt6.usdz */,
+				2DF8CB1D2CC4A43A0067E8F3 /* tShirt7.usdz */,
+				2DF8CB1E2CC4A43A0067E8F3 /* tShirt8.usdz */,
+				2DF8CB1F2CC4A43A0067E8F3 /* tShirt9.usdz */,
+				2DF8CAE72CC47F430067E8F3 /* dress2.usdc */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -162,7 +297,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D19F5002CC401C5003BD38F /* Preview Assets.xcassets in Resources */,
+				2DF8CB202CC4A43A0067E8F3 /* longSleeve5.usdz in Resources */,
+				2DF8CB212CC4A43A0067E8F3 /* tShirt3.usdz in Resources */,
+				2DF8CB222CC4A43A0067E8F3 /* longSleeve6.usdz in Resources */,
+				2DF8CB232CC4A43A0067E8F3 /* shorts7.usdz in Resources */,
+				2DF8CB242CC4A43A0067E8F3 /* longSleeve4.usdz in Resources */,
+				2DF8CB252CC4A43A0067E8F3 /* dress6.usdc in Resources */,
+				2DF8CB262CC4A43A0067E8F3 /* longSleeve2.usdz in Resources */,
+				2DF8CB272CC4A43A0067E8F3 /* tShirt9.usdz in Resources */,
+				2DF8CB282CC4A43A0067E8F3 /* pants7.usdc in Resources */,
+				2DF8CB292CC4A43A0067E8F3 /* pants5.usdc in Resources */,
+				2DF8CB2A2CC4A43A0067E8F3 /* shorts9.usdz in Resources */,
+				2DF8CB2B2CC4A43A0067E8F3 /* pants8.usdc in Resources */,
+				2DF8CB2C2CC4A43A0067E8F3 /* dress1.usdc in Resources */,
+				2DF8CB2D2CC4A43A0067E8F3 /* longSleeve1.usdz in Resources */,
+				2DF8CB2E2CC4A43A0067E8F3 /* longSleeve7.usdz in Resources */,
+				2DF8CB2F2CC4A43A0067E8F3 /* longSleeve9.usdz in Resources */,
+				2DF8CB302CC4A43A0067E8F3 /* pants1.usdc in Resources */,
+				2DF8CB312CC4A43A0067E8F3 /* dress5.usdc in Resources */,
+				2DF8CB322CC4A43A0067E8F3 /* pants2.usdc in Resources */,
+				2DF8CB332CC4A43A0067E8F3 /* pants6.usdc in Resources */,
+				2DF8CB342CC4A43A0067E8F3 /* longSleeve8.usdz in Resources */,
+				2DF8CB352CC4A43A0067E8F3 /* pants3.usdc in Resources */,
+				2DF8CB362CC4A43A0067E8F3 /* pants9.usdc in Resources */,
+				2DF8CB372CC4A43A0067E8F3 /* shorts2.usdz in Resources */,
+				2DF8CB382CC4A43A0067E8F3 /* dress3.usdc in Resources */,
+				2DF8CB392CC4A43A0067E8F3 /* shorts5.usdz in Resources */,
+				2DF8CB3A2CC4A43A0067E8F3 /* shorts6.usdz in Resources */,
+				2DF8CB3B2CC4A43A0067E8F3 /* dress8.usdc in Resources */,
+				2DF8CB3C2CC4A43A0067E8F3 /* shorts8.usdz in Resources */,
+				2DF8CB3D2CC4A43A0067E8F3 /* tShirt4.usdz in Resources */,
+				2DF8CB3E2CC4A43A0067E8F3 /* tShirt6.usdz in Resources */,
+				2DF8CB3F2CC4A43A0067E8F3 /* dress4.usdc in Resources */,
+				2DF8CB402CC4A43A0067E8F3 /* tShirt5.usdz in Resources */,
+				2DF8CB412CC4A43A0067E8F3 /* shorts3.usdz in Resources */,
+				2DF8CB422CC4A43A0067E8F3 /* shorts4.usdz in Resources */,
+				2DF8CB432CC4A43A0067E8F3 /* tShirt7.usdz in Resources */,
+				2DF8CB442CC4A43A0067E8F3 /* tShirt8.usdz in Resources */,
+				2DF8CB462CC4A43A0067E8F3 /* pants4.usdc in Resources */,
+				2DF8CB472CC4A43A0067E8F3 /* tShirt1.usdz in Resources */,
+				2DF8CB482CC4A43A0067E8F3 /* dress9.usdc in Resources */,
+				2DF8CB492CC4A43A0067E8F3 /* tShirt2.usdz in Resources */,
+				2DF8CB4A2CC4A43A0067E8F3 /* longSleeve3.usdz in Resources */,
+				2DF8CB4B2CC4A43A0067E8F3 /* shorts1.usdz in Resources */,
 				2D19F4FD2CC401C5003BD38F /* Assets.xcassets in Resources */,
+				2DF8CAE92CC47F430067E8F3 /* dress2.usdc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,11 +352,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				628FC52C2CC4117700979DFC /* WelcomeView.swift in Sources */,
 				2D19F4FB2CC401C4003BD38F /* ContentView.swift in Sources */,
-				620FE6D42CC4260B00CF66A3 /* ProfileView.swift in Sources */,
 				2D19F50B2CC408E4003BD38F /* WeatherData.swift in Sources */,
+				2DB0CCC02CC43A2C009D4CA2 /* HomeView.swift in Sources */,
+				2DB0CCC22CC4404B009D4CA2 /* SuggestedView.swift in Sources */,
+				2DF8CADB2CC466000067E8F3 /* WelcomeView.swift in Sources */,
 				2D19F4F92CC401C4003BD38F /* FifitsApp.swift in Sources */,
+				2DF8CAD92CC465F20067E8F3 /* SettingView.swift in Sources */,
+				2DF8CAD72CC465C50067E8F3 /* ProfileView.swift in Sources */,
 				2D19F50D2CC40D80003BD38F /* WeatherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
