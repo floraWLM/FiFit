@@ -1,6 +1,5 @@
 # FiFits
-FiFits is an hackohio project
+FiFits is an hackohio project 
+Here is the project description:
 
-Learn from 
-1. https://youtu.be/ArfT4qOerL8?si=ozazb6HSA80qjgzd
-
+The FiFits is an innovative tool designed to assist users who struggle with selecting daily outfits. This smart wardrobe takes into account various factors, such as weather conditions, personal preferences, and lucky colors, to randomly generate outfit suggestions from users' own collections.
