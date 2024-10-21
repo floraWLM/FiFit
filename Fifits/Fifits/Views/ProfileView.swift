@@ -31,7 +31,7 @@ struct ProfileView: View {
                             .textFieldStyle(RoundedBorderTextFieldStyle())
                             .padding(.leading, 10)
                     } else {
-                        Text(userName.isEmpty ? "FiFi" : userName)
+                        Text(userName)
                             .font(.largeTitle)
                             .fontWeight(.bold)
                             .padding(.leading, 10)
