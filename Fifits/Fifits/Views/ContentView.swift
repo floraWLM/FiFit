@@ -1,11 +1,18 @@
+//
+//  ContentView.swift
+//  Fifits
+//
+//  Created by Lemeng Wang on 10/19/24.
+//
+
 import SwiftUI
 
 struct ContentView: View {
-    @AppStorage("hasLaunchedBefore") private var hasLaunchedBefore: Bool = false
-    
+    @AppStorage("hasLaunchedBefore") var hasLaunchedBefore: Bool = false
     var body: some View {
         if !hasLaunchedBefore {
-            FirstLaunchView(hasLaunchedBefore: $hasLaunchedBefore)
+            FirstLaunchView()
+            
         } else {
             MainAppView()
         }
@@ -13,31 +20,33 @@ struct ContentView: View {
 }
 
 struct FirstLaunchView: View {
-    @Binding var hasLaunchedBefore: Bool
-    
     var body: some View {
-        VStack {
-            WelcomeView() // Add your welcome content here
-        }
+        WelcomeView()
     }
 }
 
 struct MainAppView: View {
     var body: some View {
         TabView {
-            HomeView()
+            WeatherView()
                 .tabItem {
                     Label("Home", systemImage: "house.fill")
                 }
-            
+                    
+            WardrobeView()
+                .tabItem{
+                    Label("Wardrobe", systemImage: "hanger")
+                }
+                    
             ProfileView()
                 .tabItem {
                     Label("Profile", systemImage: "person.fill")
                 }
+            }
+            .accentColor(.blue)
         }
-        .accentColor(.blue)
-    }
 }
+
 
 #Preview {
     ContentView()
