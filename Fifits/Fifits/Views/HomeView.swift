@@ -1,62 +1,115 @@
 //
-//  HomeView.swift
+//  WelcomeView.swift
 //  Fifits
 //
-//  Created by Lemeng Wang on 10/19/24.
-//
-
-//
-//  HomeView.swift
-//  Fifits
-//
-//  Created by Lemeng Wang on 10/19/24.
+//  Created by Allen Zhao on 10/19/24.
 //
 
 import SwiftUI
 
-struct HomeView: View {
-    @State private var weatherData: WeatherData? = nil
-    @AppStorage("username") var userName = ""
-    
+struct WelcomeView: View {
     var body: some View {
-        VStack(spacing: 20) {
-            // Header with greeting and weather view
-            HStack {
-                Text("Hello \(userName.isEmpty ? "FiFi" : userName)!")
+        NavigationView {
+            VStack {
+                Spacer()
+                Text("Welcome to FiFits")
                     .font(.largeTitle)
                     .fontWeight(.bold)
-                    .padding(.leading)
-                
+                    .multilineTextAlignment(.center)
+                    .padding(.bottom, 40)
+                    .frame(maxHeight: .infinity, alignment: .center)
                 Spacer()
-                
-                WeatherView(weatherData: $weatherData)
-                    .padding(.trailing)
+                NavigationLink(destination: EnterNameView()) {
+                    Text("Get Started")
+                        .font(.headline)
+                        .frame(minWidth: 0, maxWidth: .infinity)
+                        .padding()
+                        .foregroundColor(.white)
+                        .background(Color.blue)
+                        .cornerRadius(10)
+                }
+                .padding()
+                .frame(maxHeight: .infinity, alignment: .bottom)
             }
-            .padding(.top)
-            
-            // Conditional rendering based on weather data availability
-            if let weatherData = weatherData {
-                SuggestedView(weatherData: weatherData)
-                    .padding()
-            } else {
-                Color.gray
-                    .cornerRadius(10)
-                    .overlay(
-                        Text("Waiting for weather data...")
-                            .font(.headline)
-                            .foregroundColor(.white)
-                            .padding()
-                    )
-                    .frame(height: 200)
-                    .padding()
-            }
-            
-            Spacer()
+            .padding()
         }
-        .background(Color(UIColor.systemBackground).edgesIgnoringSafeArea(.all)) // Ensure it matches the system background
+    }
+}
+
+struct EnterNameView: View {
+    @AppStorage("username") var userName: String = ""
+    
+    var body: some View {
+        VStack {
+            Text("Enter Your Name")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+                .padding(.bottom, 20)
+                .frame(maxHeight: .infinity, alignment: .center)
+            
+            TextField("Your Name", text: $userName)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .padding(.bottom, 40)
+                .multilineTextAlignment(.center)
+            
+            NavigationLink(destination: EnterBirthDateView()) {
+                Spacer()
+                Text("Next")
+                    .font(.headline)
+                    .frame(minWidth: 0, maxWidth: .infinity)
+                    .padding()
+                    .foregroundColor(.white)
+                    .background(userName.isEmpty ? Color.gray : Color.blue)
+                    .cornerRadius(10)
+                @AppStorage("hasLaunchedBefore") var hasLaunchedBefore = true
+            }
+            .disabled(userName.isEmpty)
+            .padding()
+            .frame(maxHeight: .infinity, alignment: .bottom)
+        }
+        .padding()
+    }
+}
+
+struct EnterBirthDateView: View {
+    @State private var bDate = Date()
+    @AppStorage("birthdate") private var birthDate: String = ""
+    var body: some View {
+        VStack {
+            Text("Enter Your Birth Date")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+                .padding(.bottom, 20)
+                .frame(maxHeight: .infinity, alignment: .center)
+            
+            DatePicker("Date",selection: $bDate, displayedComponents: .date)
+                .datePickerStyle(WheelDatePickerStyle())
+                .padding(.bottom, 40)
+                .frame(alignment: .center)
+                .scaledToFit()
+
+            Button(action: {
+                birthDate = bDate.formatted(.iso8601.year().month().day())
+            }) {
+                NavigationLink(destination: ContentView()){
+                    Text("Finish")
+                        .font(.headline)
+                        .frame(minWidth: 0, maxWidth: .infinity)
+                        .padding()
+                        .foregroundColor(.white)
+                        .background(bDate > Date() ? Color.gray : Color.blue)
+                        .cornerRadius(10)
+                }
+            }
+            .disabled(bDate > Date())
+            .padding()
+            .frame(maxHeight: .infinity, alignment: .bottom)
+
+        }
+        .padding()
     }
 }
 
 #Preview {
-    HomeView()
+    WelcomeView()
 }
