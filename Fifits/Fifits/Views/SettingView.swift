@@ -63,6 +63,7 @@ struct SettingView: View {
                 }
             }
             Spacer()
+            Text("About Us")
         }
         .navigationTitle("Settings")
     }
